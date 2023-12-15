@@ -1,7 +1,7 @@
 function Navbar() {
 	return (
 		<>
-			<h1>Hello</h1>
+			<h1>Hello word</h1>
 		</>
 	);
 }
