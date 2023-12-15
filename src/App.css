@@ -1,3 +1,105 @@
-.title {
-	text-align: center;
+@import url("https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,240;1,100;1,100; ;1,500;1,600;1,700;1,800;1,900 & displey=almashtirish");
+
+* {
+	margin: 0;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	transition: all 0.5s;
+}
+
+.navbar {
+	padding: 0 30px;
+	display: flex;
+	color: #263238;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	align-items: center;
+	justify-content: space-between;
+}
+.navBtn {
+	color: #000;
+	background-color: rgb(253, 253, 253);
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	border-radius: 5px;
+	border: 2px solid #263238;
+	line-height: normal;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.navBtn:hover {
+	color: #fff;
+	background-color: #263238;
+}
+.salom {
+	width: 140px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	transition: all 0.5s;
+	color: #fff;
+	background-color: #263238;
+}
+
+.Learn {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px;
+}
+
+.sale {
+	width: 550px;
+}
+.sivit {
+	position: absolute;
+	left: 440px;
+	top: 250px;
+}
+.h1 {
+	color: #000;
+	font-family: Poppins;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px; /* 125% */
+}
+.p {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.get {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	width: 280px;
+	border: 2px solid white;
+	padding: 8px 25px;
+	line-height: normal;
+	border-radius: 15px;
+	background: #263238;
+}
+.get:hover {
+	color: #263238;
+	background: #fff;
+	border: 2px solid black;
+}
+.any {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
