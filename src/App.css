@@ -126,7 +126,7 @@ a:hover {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 20px;
 	/* align-items: center; */
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 .speking {
@@ -194,4 +194,225 @@ a:hover {
 	color: #263238;
 	background: #fff;
 	border: 2px solid black;
+}
+
+.pul {
+	width: 550px;
+}
+.abouth1 {
+	color: #000;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px; /* 166.667% */
+}
+.aboutp {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.about {
+	display: flex;
+	align-items: center;
+}
+.aboutSpan {
+	display: flex;
+	gap: 30px;
+}
+.aboutP {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.son {
+	color: #2a3246;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px; /* 166.667% */
+}
+.self .selfasas {
+	width: 300px;
+}
+.personal {
+	width: 300px;
+}
+.self img {
+	width: 350px;
+}
+.self {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	width: 300px;
+}
+.nhhyfdgf {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	height: 600px;
+}
+.selfa {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 610px;
+	width: 300px;
+}
+.livea {
+	width: 350px;
+}
+.selfa {
+	display: flex;
+
+	flex-direction: column;
+}
+.per {
+	display: flex;
+	border-radius: 5px;
+	background: #eee;
+	width: 240px;
+	height: 45px;
+	flex-shrink: 0;
+}
+
+.self-study {
+	color: #263238;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 48px; /* 160% */
+}
+.selStart {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.per p {
+	color: #546269;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.per h3 {
+	color: #263238;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.pricingImg {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 50px;
+}
+.pricing {
+	display: grid;
+	place-items: center;
+	margin-top: 100px;
+	gap: 20px;
+}
+
+.odamcha {
+	width: 300px;
+}
+
+.contact {
+	display: flex;
+	margin-top: 130px;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+.contacth1 {
+	color: #000;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px; /* 166.667% */
+}
+.aaaa {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.onglarv {
+	width: 600px;
+}
+.ferx {
+	display: flex;
+	align-items: center;
+	grid-area: 50px;
+	width: 600px;
+	justify-content: space-around;
+}
+.emter {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 15px 0;
+	border-radius: 10px;
+	width: 380px;
+	border: 1px solid #8f95a5;
+}
+.btn {
+	color: #f7f7f7;
+	border-radius: 10px;
+	background: #263238;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 10px 20px;
+	border: 2px solid #263238;
+	line-height: normal;
+
+	cursor: pointer;
+}
+.btn:hover {
+	color: #263238;
+	background-color: #e6e8e9;
+}
+.tugadi{
+	color: #8F95A5;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.log{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
