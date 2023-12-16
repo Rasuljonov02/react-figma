@@ -141,7 +141,7 @@ a:hover {
 }
 .writing {
 	grid-column-start: 2;
-	width: 250px;
+	width: 272px;
 	border-radius: 10px;
 	background: #f5f5f5;
 	grid-column-end: 3;
@@ -152,17 +152,17 @@ a:hover {
 	grid-column-end: 4;
 	border-radius: 10px;
 	background: #f5f5f5;
-	width: 250px;
+	width: 272px;
 }
 .liting {
-	grid-column-start: 2;
 	border-radius: 10px;
 	background: #f5f5f5;
-	grid-column-end: 4;
 
+	grid-column-start: 2;
+	grid-column-end: 4;
 	grid-row-start: 2;
-	place-items: center;
 	grid-row-end: 3;
+	place-items: center;
 	width: 580px;
 	height: 300px;
 
@@ -402,17 +402,21 @@ a:hover {
 	color: #263238;
 	background-color: #e6e8e9;
 }
-.tugadi{
-	color: #8F95A5;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.tugadi {
+	color: #8f95a5;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
-.log{
+.log {
+	border-top: 1px solid #000;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+.footr {
+	margin-top: 50px;
 }
