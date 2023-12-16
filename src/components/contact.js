@@ -7,6 +7,9 @@ function Pricing() {
 	return (
 		<>
 			<div className="contact">
+
+
+			
 				<div className="chaplar">{<Img link={odam} alt="odamcha" />}</div>
 				<div className="onglarv">
 					<h1 className="contacth1">Contact us</h1>
